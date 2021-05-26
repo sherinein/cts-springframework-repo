@@ -1,0 +1,66 @@
+2021-05-25 14:18:00,635 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-05-25 14:24:54,741 [Worker-12: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' D:\spring-workspace\eshopping-employee\pom.xml
+2021-05-25 14:24:56,407 [Worker-12: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts.eshopping:eshopping-employee:0.0.1-SNAPSHOT @ D:\spring-workspace\eshopping-employee\pom.xml.
+2021-05-25 14:24:57,351 [Worker-12: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eshopping-employee/src/main/java
+2021-05-25 14:24:57,367 [Worker-12: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eshopping-employee/src/test/java
+2021-05-25 14:24:58,532 [Worker-12: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 3 sec
+2021-05-25 14:24:59,970 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 14:24:59,970 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\main\resources
+2021-05-25 14:24:59,973 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 14:24:59,973 [Worker-11: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\test\resources
+2021-05-25 14:38:28,523 [Worker-31: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts.eshopping:eshopping-employee:0.0.1-SNAPSHOT @ D:\spring-workspace\eshopping-employee\pom.xml.
+2021-05-25 14:38:28,839 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 14:38:28,839 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\main\resources
+2021-05-25 14:38:28,841 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 14:38:28,842 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\test\resources
+2021-05-25 14:38:30,444 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 14:38:30,445 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\main\resources
+2021-05-25 14:38:30,447 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 14:38:30,447 [Worker-31: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\test\resources
+2021-05-25 14:40:15,616 [Worker-32: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-05-25 14:40:16,047 [Worker-32: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.cts.eshopping:eshopping-employee:0.0.1-SNAPSHOT @ D:\spring-workspace\eshopping-employee\pom.xml.
+2021-05-25 14:40:16,277 [Worker-32: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eshopping-employee/src/main/java
+2021-05-25 14:40:16,278 [Worker-32: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eshopping-employee/src/test/java
+2021-05-25 14:40:16,492 [Worker-32: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2021-05-25 14:40:16,901 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 14:40:16,901 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\main\resources
+2021-05-25 14:40:16,906 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 14:40:16,906 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\test\resources
+2021-05-25 16:48:10,258 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 16:48:10,259 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\main\resources
+2021-05-25 16:48:10,262 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 16:48:10,262 [Worker-59: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\test\resources
+2021-05-25 16:48:34,913 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-05-25 16:49:46,983 [Worker-61: Launching eshopping-employee] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\spring-workspace\eshopping-employee
+2021-05-25 16:49:46,985 [Worker-61: Launching eshopping-employee] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2021-05-25 16:51:38,183 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2021-05-25 16:51:38,732 [Worker-64: Launching eshopping-employee] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\spring-workspace\eshopping-employee
+2021-05-25 16:51:38,732 [Worker-64: Launching eshopping-employee] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B compile
+2021-05-25 16:52:01,928 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-05-25 16:52:11,041 [Worker-64: Launching eshopping-employee (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\spring-workspace\eshopping-employee
+2021-05-25 16:52:11,042 [Worker-64: Launching eshopping-employee (1)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2021-05-25 16:53:58,793 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-05-25 16:54:09,377 [Worker-63: Launching eshopping-employee (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\spring-workspace\eshopping-employee
+2021-05-25 16:54:09,377 [Worker-63: Launching eshopping-employee (2)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B package
+2021-05-25 16:55:08,778 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-05-25 16:55:21,434 [Worker-63: Launching eshopping-employee (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\spring-workspace\eshopping-employee
+2021-05-25 16:55:21,434 [Worker-63: Launching eshopping-employee (3)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-05-25 17:03:08,502 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 17:03:08,502 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\main\resources
+2021-05-25 17:03:08,503 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 17:03:08,504 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\test\resources
+2021-05-25 17:03:37,690 [Worker-68: Launching Executing clean in D__spring-workspace_eshopping-employee] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\spring-workspace\eshopping-employee
+2021-05-25 17:03:37,691 [Worker-68: Launching Executing clean in D__spring-workspace_eshopping-employee] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2021-05-25 17:03:42,165 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 17:03:42,165 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\main\resources
+2021-05-25 17:03:42,167 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 17:03:42,168 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\test\resources
+2021-05-25 17:04:19,699 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-05-25 17:04:32,963 [Worker-70: Launching eshopping-employee (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate - D:\spring-workspace\eshopping-employee
+2021-05-25 17:04:32,963 [Worker-70: Launching eshopping-employee (4)] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2021-05-25 17:04:52,579 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 17:04:52,579 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\main\resources
+2021-05-25 17:04:52,582 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2021-05-25 17:04:52,582 [Worker-71: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\spring-workspace\eshopping-employee\src\test\resources
+2021-05-25 17:12:58,381 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2021-05-26 07:31:40,441 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
