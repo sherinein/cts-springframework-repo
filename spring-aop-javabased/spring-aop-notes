@@ -1,0 +1,52 @@
+copy spring-context,spring-aop ,aspectjweaver dependency from central repo
+paste in pom.xml
+Maven update
+example--->org.dxc.shopping (base package)
+Model class ---> basepackage.model
+Service	    --->basepackage.service
+dao ----------->basepackage.dao
+config file(xml file or Java based or annotation based)
+	xml --->resources(source foler)-->spring bean configuration file
+	basepackage.config -->Java Configuration file
+	java--> basepackage.config --->Java Configuration file
+aspect class ---->basepackage.aspects ---> create Aspect class @Aspect
+	write advice ,pointcut ,pointcut expression
+Main class (basepackage)
+	1. load the object in the container
+	To read Xml configuration file 
+	------------------
+	ApplicationContext applicationContext=new ClassPathXmlApplicationContext("spring-aop.xml");
+						(or)
+	To read Java configuration file
+	-------------------------------
+	ApplicationContext applicationContext=new AnnotationConfigApplicationContext(SpringConfig.class);
+						(or)
+		
+	Note : if  xml file in outside then you can use FileSystemXmlApplicationContext
+	-------------------------------------------------------------------------
+	ApplicationContext applicationContext=new FileSystemXmlApplicationContext("D:\spring-aop.xml");		
+	
+	2. get object from container
+	Object object=applicationContext.getBean("object name");
+	
+	Employee employee=(Employee)object;
+	-----------------------------------
+				(or)
+	Employee employee=(Employee)applicationContext.getBean("object name");
+	------------------------------------------------------------------------		
+	Employee employee=applicationContext.getBean(classname.class);
+	3. using object call method
+	
+	/===================== Here after core java coding ======================================/
+	
+	
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+         http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd"> <!-- bean definitions here -->
+
+	<!-- Setter Injection -->
+	<bean id="student" class="com.cts.springcore.dto.Student"> 
+		<property name="studentName" value="Lakshmi Priya"></property>  
+		<property name="listOfCourses">
+			<list>
+			 <bean class="com.cts.springcore.dto.Course">
+					<property name="courseName" value="Core Java" />
+					<property name="fees" value="5000" />
+				</bean>
+				<bean class="com.cts.springcore.dto.Course">
+					<property name="courseName" value="Servlet JSP" />
+					<property name="fees" value="7000" />
+				</bean>
+				<ref bean="course1"/>
+			</list>
+		</property>
+	</bean>
+
+	<bean id="course1" class="com.cts.springcore.dto.Course">
+		<property name="courseName" value="Spring framework" />
+		<property name="fees" value="8000" />
+	</bean>
+
+
+</beans>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-4.3.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+	<aop:config>
+		<aop:aspect id="loggingAspect" ref="loggingAspect">
+			<!-- @Before("execution(* org.cts.aop.service.*.add*(..))") -->
+			<aop:pointcut expression="execution(* org.cts.aop.service.*.add*(..))" id="beforepointcut"/>
+			
+			<aop:before method="beforeAdvice" pointcut-ref="beforepointcut"/>
+	
+			<!-- @After("execution(* org.cts.aop.service.*.getProduct())") -->
+			<aop:pointcut expression="execution(* org.cts.aop.service.*.getProduct())" id="afterpointcut"/>
+			<aop:after method="afterAdvice" pointcut-ref="afterpointcut"/>
+	
+	
+			<!-- @AfterReturning("execution(* org.cts.aop.service.*.add*(..))") -->
+			<aop:pointcut expression="execution(* org.cts.aop.service.*.add*(..))" id="afterreturingpointcut"/>
+			<aop:after-returning method="afterReturningAdvice" pointcut-ref="afterreturingpointcut"/>
+
+			<!-- @AfterThrowing(pointcut="execution(* org.cts.aop.service.*.getProduct())",throwing="ex") -->
+
+			<aop:pointcut expression="execution(* org.cts.aop.service.*.getProduct())" id="afterthrowingpointcut"/>
+			<aop:after-throwing method="afterThrowingAdvice" pointcut-ref="afterthrowingpointcut" throwing="ex"/>
+	
+	
+			<!-- @Around("execution(* org.cts.aop.service.*.delay*())") -->
+			<aop:pointcut expression="execution(* org.cts.aop.service.*.delay*())" id="aroundpointcut"/>
+			<aop:around method="logAroundAdvice" pointcut-ref="aroundpointcut"/>
+		</aop:aspect>
+	</aop:config>
+	
+	<!-- Definition of Loggin Aspect  -->
+	<bean id="loggingAspect" class="org.cts.aop.aspect.LoggingAspect" />
+
+	<!-- Bean object for service class -->
+	<bean id="productService" class="org.cts.aop.service.ProductService" />
+
+
+
+</beans>
