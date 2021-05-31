@@ -26,13 +26,16 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.cts.springjdbc"/>
 			<item value="com.cts.springcore.springcore_annotationbased"/>
 			<item value="com.cts.springcore"/>
 		</list>
 		<list key="groupId">
+			<item value="com.cts.springjdbc"/>
 			<item value="com.cts.springcore"/>
 		</list>
 		<list key="artifactId">
+			<item value="springjdbc-xmlbased"/>
 			<item value="springcore-annotationbased"/>
 			<item value="springaop-xmlbased"/>
 			<item value="springcore-ioc"/>
