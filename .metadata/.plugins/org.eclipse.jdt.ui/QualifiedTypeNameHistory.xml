@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.context.ApplicationContext"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.sql.DriverManager"/>
-<fullyQualifiedTypeName name="java.sql.Connection"/>
-<fullyQualifiedTypeName name="com.cts.springcore.dto.Student"/>
-<fullyQualifiedTypeName name="com.cts.springcore.dto.Course"/>
-<fullyQualifiedTypeName name="com.cts.springcore.dto.User"/>
-<fullyQualifiedTypeName name="com.cts.springcore.service.CarService"/>
 <fullyQualifiedTypeName name="com.cts.springcore.config.SpringConfig"/>
 <fullyQualifiedTypeName name="org.springframework.context.support.AbstractApplicationContext"/>
 <fullyQualifiedTypeName name="com.cts.springcore.dto.Car"/>
@@ -26,10 +17,7 @@
 <fullyQualifiedTypeName name="org.springframework.jdbc.core.JdbcTemplate"/>
 <fullyQualifiedTypeName name="com.cts.springjdbc.config.SpringJdbcConfig"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
 <fullyQualifiedTypeName name="com.cts.springjdbc.model.Employee"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
@@ -39,5 +27,37 @@
 <fullyQualifiedTypeName name="com.cts.springjdbc.dao.EmployeeDao"/>
 <fullyQualifiedTypeName name="com.cts.springjdbc.dao.EmployeeDaoImpl"/>
 <fullyQualifiedTypeName name="com.cts.springjdbc.dao.impl.ResultSetExtractorImpl1"/>
+<fullyQualifiedTypeName name="com.cts.junit4.dto.User"/>
+<fullyQualifiedTypeName name="org.junit.Test"/>
+<fullyQualifiedTypeName name="org.junit.runners.Parameterized"/>
+<fullyQualifiedTypeName name="org.junit.After"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="org.junit.runners.Parameterized.Parameters"/>
+<fullyQualifiedTypeName name="org.junit.runners.Suite"/>
+<fullyQualifiedTypeName name="org.junit.runners.Suite.SuiteClasses"/>
+<fullyQualifiedTypeName name="com.cts.junit4.CalculatorTest"/>
+<fullyQualifiedTypeName name="com.cts.junit4.service.LoginServiceTest"/>
+<fullyQualifiedTypeName name="org.junit.runner.JUnitCore"/>
+<fullyQualifiedTypeName name="org.junit.runner.Result"/>
+<fullyQualifiedTypeName name="org.junit.runner.notification.Failure"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="org.junit.runner.RunWith"/>
+<fullyQualifiedTypeName name="org.mockito.runners.MockitoJUnitRunner"/>
+<fullyQualifiedTypeName name="com.cts.mockito.dao.EmployeeDao"/>
+<fullyQualifiedTypeName name="org.mockito.InjectMocks"/>
+<fullyQualifiedTypeName name="org.mockito.Mock"/>
+<fullyQualifiedTypeName name="org.junit.Before"/>
+<fullyQualifiedTypeName name="org.mockito.MockitoAnnotations"/>
+<fullyQualifiedTypeName name="com.cts.mockito.dto.Employee"/>
+<fullyQualifiedTypeName name="org.mockito.internal.verification.Times"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.mockito.Mockito"/>
+<fullyQualifiedTypeName name="org.junit.Ignore"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Repository"/>
 </qualifiedTypeNameHistroy>

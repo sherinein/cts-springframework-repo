@@ -26,19 +26,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.cts.springjdbc"/>
-			<item value="com.cts.springcore.springcore_annotationbased"/>
-			<item value="com.cts.springcore"/>
 		</list>
 		<list key="groupId">
-			<item value="com.cts.springjdbc"/>
-			<item value="com.cts.springcore"/>
 		</list>
 		<list key="artifactId">
-			<item value="springjdbc-xmlbased"/>
-			<item value="springcore-annotationbased"/>
-			<item value="springaop-xmlbased"/>
-			<item value="springcore-ioc"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -77,6 +68,9 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\spring-workspace\springboot-springmvc-register-validation"/>
+			<item value="D:\spring-workspace\springboot-springmvc"/>
+			<item value="D:\spring-workspace\springmvc-shopping-xmlbased"/>
 			<item value="D:\spring-workspace\spring-aop-javabased"/>
 			<item value="D:\spring-workspace\spring-aop-javabasedconfiguration"/>
 			<item value="D:\spring-workspace\spring-aop-xmlbased"/>
